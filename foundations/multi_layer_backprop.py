@@ -17,8 +17,7 @@ class Solution:
         #   'db1':   1D list (gradient w.r.t. b1, rounded to 4 decimals)
         #   'dW2':   2D list (gradient w.r.t. W2, rounded to 4 decimals)
         #   'db2':   1D list (gradient w.r.t. b2, rounded to 4 decimals)
-        result = {}
-        #for i in range(len(W1)):
+        
         x = np.array(x)
         W1 = np.array(W1)
         b1 = np.array(b1)
