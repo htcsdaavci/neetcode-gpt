@@ -10,11 +10,7 @@ class Solution:
         # biases: list of 1D bias vectors
         # Apply ReLU after each hidden layer, no activation on output layer
         # return np.round(your_answer, 5)
-        # x = np.array(x)
-        #weights = np.array(weights)
-        #biases = np.array(biases)
-        def relu_derivative(x):
-            return 0 if x < 0 else 1
+      
         def relu(x):
             return np.maximum(0,x)
         hidden_layer = x
